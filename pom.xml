@@ -13,6 +13,7 @@
 	<artifactId>BasicProgramm</artifactId>
 	<version>0.0.1</version>
 	<name>BasicProgramm</name>
+
 	
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -34,6 +35,7 @@
 	</dependencies>
 
 	<build>
+	 <defaultGoal>install</defaultGoal>  
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
